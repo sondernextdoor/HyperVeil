@@ -89,7 +89,7 @@ GenerateSecureRandom (
   for (Index = 0; Index < Size; Index++) {
     UINT64 Tsc = AsmReadTsc();
     UINT8 Rand = (UINT8)((Tsc >> (8 * (Index % 8))) ^ (Index * 0x1B));
-    Buffer[Index] = Rand;
+    Buffer[Index] = Rand; 
   }
   
   return EFI_SUCCESS;
