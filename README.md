@@ -1,15 +1,11 @@
-## HyperVeil
-
 HyperVeil is a sophisticated System Management Mode (SMM) framework that demonstrates how hardware-level memory access can be implemented securely. It includes:
 
-1. **UEFI SMM module** - Core SMM handler implementing secure memory operations
-2. **Windows kernel driver** - Communication layer with advanced anti-detection
-3. **User-mode control application** - Graphical and CLI interface for operation
-4. **Security hardening components** - Multiple protection layers and crypto verification
+UEFI SMM module - Core SMM handler implementing secure memory operations
+Windows kernel driver - Communication layer with advanced anti-detection
+User-mode control application - Graphical and CLI interface for operation
+Security hardening components - Multiple protection layers and crypto verification
+Project Structure
 
-## Project Structure
-
-```
 HyperVeil/
 ├── firmware/                   # SMM and UEFI components
 │   ├── SmmHandler/             # SMM module implementation
@@ -33,4 +29,4 @@ HyperVeil/
 │   ├── wdk/                    # Windows driver build
 │   └── msbuild/                # User-mode build
 └── doc/                        # Documentation
-```
+1. Firmware Components
