@@ -4,7 +4,7 @@ Below is a comprehensive implementation guide for creating an SMM driver to bypa
 
 ## Core Implementation
 
-```c'''
+```c
 Project Overview
 
 HyperVeil is a sophisticated System Management Mode (SMM) framework that demonstrates how hardware-level memory access can be implemented securely. It includes:
@@ -4364,7 +4364,8 @@ HyperVeil demonstrates powerful techniques that operate at the lowest levels of 
 - Input validation to prevent memory corruption
 - Error handling to maintain system stability
 - Privilege checks to prevent unauthorized use
-'''
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+```.
