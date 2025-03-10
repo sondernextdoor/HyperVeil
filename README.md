@@ -1,3 +1,12 @@
+# SMM Driver Implementation for Anti-Cheat Bypass
+
+Below is a comprehensive implementation guide for creating an SMM driver to bypass anti-cheat systems:
+
+## Core Implementation
+
+```c
+Project Overview
+
 HyperVeil is a sophisticated System Management Mode (SMM) framework that demonstrates how hardware-level memory access can be implemented securely. It includes:
 
 UEFI SMM module - Core SMM handler implementing secure memory operations
