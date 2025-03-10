@@ -1,3 +1,5 @@
+## HyperVeil
+
 HyperVeil is a sophisticated System Management Mode (SMM) framework that demonstrates how hardware-level memory access can be implemented securely. It includes:
 
 1. **UEFI SMM module** - Core SMM handler implementing secure memory operations
