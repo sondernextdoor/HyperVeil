@@ -1,4 +1,4 @@
-# SMM Driver Implementation for Anti-Cheat Bypass
+# SMM Implementation for Anti-Cheat Bypass
 
 Below is a comprehensive implementation guide for creating an SMM driver to bypass anti-cheat, anti-malware, and other security systems:
 
